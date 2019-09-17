@@ -26,19 +26,19 @@ echo $result
 
 #### Python
 ```python
-//imports needed library
+# imports needed library
 from urllib.request import urlopen
 
-//sets the target url
+# sets the target url
 url = "http://www.boomlings.com/database/[insert target file]"
 
-//makes the post string
+# makes the post string
 post = "gameVersion=20&binaryVersion=32&gdw=0&accountID=[uraccid]&gjp=[urgjp]&type=top&count=100000000&secret=Wmfd2893gb7"
 post = post.encode()
 
-//makes a request on your url using the post values
+# makes a request on your url using the post values
 result = urlopen(url, post).read().decode()
 
-//outputs the site responce
+# outputs the site responce
 print(result)
 ```
