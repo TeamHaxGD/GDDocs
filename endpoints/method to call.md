@@ -33,7 +33,7 @@ from urllib.request import urlopen
 url = "http://www.boomlings.com/database/[insert target file]"
 
 # makes the post string
-post = "gameVersion=20&binaryVersion=32&gdw=0&accountID=[uraccid]&gjp=[urgjp]&type=top&count=100000000&secret=Wmfd2893gb7"
+post = "seperateAndDefine=0&indexes=example&like=true&this=everything_behind_the_equal_sign_is_a_value_and_everything_behind_a_and_sign_is_an_index"
 post = post.encode()
 
 # makes a request on your url using the post values
