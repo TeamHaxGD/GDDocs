@@ -23,7 +23,7 @@ curl_close($ch);
 echo $result
 ?>
 ```
-<br>
+
 #### Python
 ```python
 //imports needed library
