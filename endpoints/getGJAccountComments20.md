@@ -1,7 +1,7 @@
 ## getGJAccountComments20.php
 Get all account comments from a profile
 ### Parameters
-(For all empty parameters refer to [the common parameters](common_parameters.md)
+(For all empty parameters refer to [the common parameters](common_parameters.md))
 #### gameVersion
 #### binaryVersion
 #### gdw
