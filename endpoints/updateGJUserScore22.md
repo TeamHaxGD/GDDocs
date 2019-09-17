@@ -17,8 +17,8 @@ Gives the icon colors as an int format using color IDs.
 Updates the user icon and explosion selection using int IDs.
 #### accGlow
 Toggles glow on and off using 1 (true) and 0 (false)
-#### seed
-An encrypted string to validate the request. Current generating method is being researched.
+#### seed, seed2
+Encrypted strings to validate the request. Current generating method is being researched.
 #### icon, iconType, special
 Currently being researched.
 #### secret
