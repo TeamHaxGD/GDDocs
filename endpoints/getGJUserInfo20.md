@@ -8,6 +8,6 @@ Fetching the profile page of a user.
 #### accountID
 #### gjp
 #### targetAccountID
-The account ID it should fetch info from. When equal to accountID it will also fetch owner data
+The account ID it should fetch info from. When equal to accountID it will also fetch owner data.
 #### secret
 Wmfd2893gb7
