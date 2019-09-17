@@ -18,7 +18,7 @@ Updates the user icon and explosion selection using int IDs.
 #### accGlow
 Toggles glow on and off using 1 (true) and 0 (false)
 #### seed, seed2
-Encrypted strings to validate the request. Encryption method is Base64 encode -> Gzip.
+Encrypted strings to validate the request. Encryption method is `Plain Text -> Gzip -> Xor -> Base64`
 #### icon, iconType, special
 Currently being researched.
 #### secret
