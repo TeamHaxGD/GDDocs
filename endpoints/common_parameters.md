@@ -5,13 +5,13 @@ Version of the client.
 #### gdw
 If the request was made by the Geometry Dash World app, this is set to 1; else it's 0.
 #### accountID
-A unique ID used to identify players. If the player is not logged in, this is set to 0.
+A unique ID used to identify accounts. If the player is not logged in, this is set to 0.
 #### gjp
-The encoded password of the player. If the player is not logged in, this is empty.
+The encoded password of the player. If the player is not logged in, this is empty or not even included.
 #### udid
-An alphanumeric ID used to identify unregistered players. This is either based on the device, or generated casually, idk tbh xd
+An alphanumeric ID used to identify unregistered players. This is either based on the device, or generated casually.
 #### uuid
-Yet another ID used to identify unregistered players. Idk how that's generated tbh.
+Yet another ID used to identify unregistered players. These are generated through the database using an unique value.
 #### secret
 A value used to validate requests. This may vary from endpoint to endpoint, but it doesnt change.
 #### seedX
