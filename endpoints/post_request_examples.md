@@ -121,3 +121,30 @@ class Main {
   });
 </script>
 ```
+
+#### Rust
+```rust
+use reqwest::Client;
+
+//calls main method
+fn main() -> Result<(), Box<dyn std::error::Error>> {
+
+  //sets the target url
+  let url = "http://www.boomlings.com/database/[insert target file]";
+  
+  //makes the post string
+  let postvalues = "gameVersion=21&whateverElse=example";
+
+  //sends the request
+  let mut req = Client::new().post(url).body(postvalues).send()?;
+
+  //reads the output
+  let output = req.text()?;
+
+  // prints the output
+  println!("{}", output);
+  Ok(())
+}
+
+//thx Blaze for making a request code in rust
+```
