@@ -16,7 +16,7 @@ Gives the icon colors as an int format using color IDs.
 #### accIcon, accShip, accBall, accBird, accDart, accRobot, accSpider, accExplosion
 Updates the user icon and explosion selection using int IDs.
 #### accGlow
-Toggles glow on and off using 1 (true) and 0 (false)
+A boolean to toggle glow on and off using 1 (true) and 0 (false)
 #### seed, seed2
 Encrypted strings to validate the request. Encryption method is `Plain Text -> Gzip -> Xor(11) -> Base64`
 #### icon, iconType, special
