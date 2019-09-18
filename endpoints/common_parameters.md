@@ -13,7 +13,7 @@ A unique ID used to identify accounts. If the player is not logged in, this is s
 #### gjp
 The encoded password of the player. If the player is not logged in, this is empty or not even included.
 #### udid
-An alphanumeric ID used to identify unregistered players. This is either based on the device, or generated casually.
+An unique device code to identify the player account linked to the device.
 #### uuid
 Yet another ID used to identify unregistered players. These are generated through the database using an unique value.
 #### secret
