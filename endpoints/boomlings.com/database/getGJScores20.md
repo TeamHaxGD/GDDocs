@@ -1,5 +1,5 @@
 ## getGJScores20.php
-Fetching the profile page of a user.
+Fetching a leaderboards type.
 ### Parameters
 (For all empty parameters refer to [the common parameters](https://github.com/SMJSGaming/GDDocs/blob/master/endpoints/common_parameters.md))
 #### gameVersion
