@@ -7,7 +7,7 @@
 $url = "http://boomlings.com/database/[insert target file]";
 
 //makes the post string
-$str = "seperateAndDefine=0&indexes=example&like=true&this=everything_behind_the_equal_sign_is_a_value_and_everything_behind_a_and_sign_is_an_index";
+$str = "seperateAndDefine=0&indexes=example&like=true&this=everything_behind_the_equal_sign_is_a_value_and_everything_behind_the_and_sign_is_an_index";
 
 //turns the post string into an array
 parse_str($str, $post);
@@ -37,7 +37,7 @@ from urllib.request import urlopen
 url = "http://www.boomlings.com/database/[insert target file]"
 
 # makes the post string
-post = "seperateAndDefine=0&indexes=example&like=true&this=everything_behind_the_equal_sign_is_a_value_and_everything_behind_a_and_sign_is_an_index"
+post = "seperateAndDefine=0&indexes=example&like=true&this=everything_behind_the_equal_sign_is_a_value_and_everything_behind_the_and_sign_is_an_index"
 post = post.encode()
 
 # makes a request on your url using the post values
@@ -60,7 +60,7 @@ class Main {
     URL url = new URL("http://www.boomlings.com/database/[insert target file]");
     
     //makes the post string
-    String postData = "seperateAndDefine=0&indexes=example&like=true&this=everything_behind_the_equal_sign_is_a_value_and_everything_behind_a_and_sign_is_an_index";
+    String postData = "seperateAndDefine=0&indexes=example&like=true&this=everything_behind_the_equal_sign_is_a_value_and_everything_behind_the_and_sign_is_an_index";
 
     //turns the post data into a byte array
     byte[] postDataBytes = postData.getBytes("UTF-8");
@@ -108,7 +108,7 @@ class Main {
         seperateAndDefine: 0,
         indexes: "example",
         like: true,
-        this: "everything behind the double dots is a value and everything behind a and sign is an index"
+        this: "everything behind the double dots is a value and everything behind the and sign is an index"
       },
       
       //reads the output
