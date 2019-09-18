@@ -1,5 +1,5 @@
 ## getGJMessages20.php
-Gets all account comments from a profile.
+Gets all messages from an account going in and out.
 ### Parameters
 (For all empty parameters refer to [the common parameters](https://github.com/SMJSGaming/GDDocs/blob/master/endpoints/common_parameters.md))
 #### gameVersion
