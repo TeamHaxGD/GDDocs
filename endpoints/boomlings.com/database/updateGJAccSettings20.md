@@ -9,7 +9,7 @@ MS stands for message setting and tells the server if you allow messages from al
 #### frS
 FrS stands for friend request setting and tells the server if you allow friends requests from all (0) or none (1).
 #### cS
-CS stands for Comment setting and tells the server if you allow all (0), friends (1) or me (2) to see your comment history (me as in the setting option refering to you).
+CS stands for comment setting and tells the server if you allow all (0), friends (1) or me (2) to see your comment history (me as in the setting option refering to you).
 #### yt
 Your linked YouTube account sent as plain text. This is left empty when you didn't link any account.
 #### twitter
