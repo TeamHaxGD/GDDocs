@@ -8,7 +8,6 @@ Updates the user data on specific requests.
 #### accountID
 #### gjp
 #### urserName
-This parameter speaks for itself, no encryptions just as plain text.
 #### stars, demons, diamonds, coins, userCoins
 These parameters speaks for itself, format is just a normal int value.
 #### color1, color2
