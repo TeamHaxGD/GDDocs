@@ -1,5 +1,5 @@
 ## getGJUserInfo20.php
-Fetching the profile page of a user.
+Gets the profile page of a user.
 ### Parameters
 (For all empty parameters refer to [the common parameters](https://github.com/SMJSGaming/GDDocs/blob/master/endpoints/common_parameters.md))
 #### gameVersion
