@@ -84,3 +84,40 @@ class Main {
     }
 }
 ```
+
+#### Javascript/Jquery
+```javascript
+<!-- includes jquery -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script>
+
+  //executes when the document is loaded
+  $(document).ready(function() {
+    
+    //prepares the ajax request
+    $.ajax({
+      
+      //sets the target url
+      url: "http://www.boomlings.com/database/[insert target file]",
+      
+      //tells ajax the request type needs to be post
+      type: "post",
+      
+      //makes the post data array using json
+      data: {
+        seperateAndDefine: 0,
+        indexes: "example",
+        like: true,
+        this: "everything behind the double dots is a value and everything behind a and sign is an index"
+      },
+      
+      //reads the output
+      success: function(data) {
+      
+        //prints the output
+        console.log(data);
+      }
+    });
+  });
+</script>
+```
