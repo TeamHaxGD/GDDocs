@@ -57,7 +57,7 @@ class Main {
   public static void main(String[] args) throws Exception {
     
     //sets the target url
-    URL url = new URL("http://www.boomlings.com/database/");
+    URL url = new URL("http://www.boomlings.com/database/[insert target file]");
     
     //makes the post string
     String postData = "seperateAndDefine=0&indexes=example&like=true&this=everything_behind_the_equal_sign_is_a_value_and_everything_behind_a_and_sign_is_an_index";
