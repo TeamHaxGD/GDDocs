@@ -13,9 +13,9 @@ A unique ID used to identify accounts. If the player is not logged in, this is s
 #### gjp
 The encoded password of the player. If the player is not logged in, this is empty or not even included.
 #### udid
-Uuid stands for unique device identifier and is a numeric value to identivy a device used by apple.
+Uuid stands for unique device identifier and is a numeric value to identivy a device used by apple. On other platforms this gets generated with no real properties.
 #### uuid
-Uuid stands for universally unique identifier and is a 128 bit value to identivy a device used by android.
+Uuid stands for universally unique identifier and is a value to identivy a device used by android. On other platforms this gets generated with no real properties.
 #### secret
 A value used to validate requests. This may vary from endpoint to endpoint, but it doesnt change.
 #### seedX
