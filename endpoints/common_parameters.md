@@ -4,6 +4,10 @@ Version of the game.
 Version of the client.
 #### gdw
 If the request was made by the Geometry Dash World app, this is set to 1; else it's 0.
+#### userName
+The username of the user in plain text
+#### password
+The password of the user in plain text
 #### accountID
 A unique ID used to identify accounts. If the player is not logged in, this is set to 0.
 #### gjp
