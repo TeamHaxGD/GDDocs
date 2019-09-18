@@ -15,7 +15,7 @@ The encoded password of the player. If the player is not logged in, this is empt
 #### udid
 An unique device code to identify the player account linked to the device.
 #### uuid
-Yet another ID used to identify unregistered players. These are generated through the database using an unique value.
+Uuid stands for universally unique identifier and is a 128 bit value to identivy a device.
 #### secret
 A value used to validate requests. This may vary from endpoint to endpoint, but it doesnt change.
 #### seedX
