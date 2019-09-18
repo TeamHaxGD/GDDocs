@@ -1,5 +1,5 @@
 ## getGJAccountComments20.php
-Get all account comments from a profile
+Gets all account comments from a profile.
 ### Parameters
 (For all empty parameters refer to [the common parameters](https://github.com/SMJSGaming/GDDocs/blob/master/endpoints/common_parameters.md))
 #### gameVersion
