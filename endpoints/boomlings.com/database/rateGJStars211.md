@@ -1,5 +1,5 @@
 ## rateGJStars211.php
-Gets all account comments from a profile.
+Sends your star suggestion to the server.
 ### Parameters
 (For all empty parameters refer to [the common parameters](https://github.com/SMJSGaming/GDDocs/blob/master/endpoints/common_parameters.md))
 #### gameVersion
