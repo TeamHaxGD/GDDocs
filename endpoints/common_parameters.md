@@ -13,7 +13,7 @@ A unique ID used to identify accounts. If the player is not logged in, this is s
 #### gjp
 The encoded password of the player. If the player is not logged in, this is empty or not even included.
 #### udid
-Uuid stands for unique device identifier and is a numeric value to identivy a device used by apple. On other platforms this gets generated with no real properties.
+Udid stands for unique device identifier and is a numeric value to identivy a device used by apple. On other platforms this gets generated with no real properties.
 #### uuid
 Uuid stands for universally unique identifier and is a value to identivy a device used by android. On other platforms this gets generated with no real properties.
 #### secret
