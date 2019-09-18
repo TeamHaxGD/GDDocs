@@ -1,5 +1,5 @@
 ## getGJChallenges.php
-Fetching the quests
+Gets the quests.
 ### Parameters
 (For all empty parameters refer to [the common parameters](https://github.com/SMJSGaming/GDDocs/blob/master/endpoints/common_parameters.md))
 #### gameVersion
