@@ -8,7 +8,7 @@ Accepts a friend request.
 #### accountID
 #### gjp
 #### targetAccountID
-The person the game should accept a request from.
+The person the server should accept a request from.
 #### requestID
 The friend request ID.
 #### secret
