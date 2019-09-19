@@ -8,6 +8,6 @@ Blocks a user.
 #### accountID
 #### gjp
 #### targetAccountID
-The person the game should block.
+The person the server should block.
 #### secret
 Wmfd2893gb7
