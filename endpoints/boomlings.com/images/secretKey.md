@@ -1,2 +1,2 @@
-## secretKey.md
-A hidden image of the secret key with a purple gradient background. Current use is unknown.
+## secretKey.png
+A hidden image of a secret key with a purple gradient background. Current use is unknown.
