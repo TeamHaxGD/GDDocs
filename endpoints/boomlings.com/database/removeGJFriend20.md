@@ -1,5 +1,5 @@
 ## removeGJFriend20.php
-Uploads a message to a user.
+Removes a friend.
 ### Parameters
 (For all empty parameters refer to [the common parameters](https://github.com/SMJSGaming/GDDocs/blob/master/endpoints/common_parameters.md))
 #### gameVersion
