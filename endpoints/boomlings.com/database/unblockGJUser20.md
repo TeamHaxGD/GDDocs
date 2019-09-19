@@ -8,6 +8,6 @@ Unblocks a user.
 #### accountID
 #### gjp
 #### targetAccountID
-The person the game should unblock.
+The person the server should unblock.
 #### secret
 Wmfd2893gb7
