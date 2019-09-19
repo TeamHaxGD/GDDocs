@@ -1,5 +1,5 @@
 ## registerGJAccount.php
-Uploads a comment to on your profile page.
+Registers an account.
 ### Parameters
 (For all empty parameters refer to [the common parameters](https://github.com/SMJSGaming/GDDocs/blob/master/endpoints/common_parameters.md))
 #### userName
