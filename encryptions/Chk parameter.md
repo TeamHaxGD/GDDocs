@@ -1,7 +1,7 @@
 ## Chk parameter
 An alternative for the secret parameter or to send secret data to the server to validate things.
 ### Decryption
-`Plain Text + Salt -> sha1 -> XOR -> Base64`
+`Raw -> Base64 decode -> XOR -> SHA1 -> Salt`
 
 #### XOR Keys:
 For level downloading and uploading: 41274  
