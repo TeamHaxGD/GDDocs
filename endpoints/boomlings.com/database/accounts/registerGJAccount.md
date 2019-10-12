@@ -1,7 +1,7 @@
 ## registerGJAccount.php
 Registers an account.
 ### Parameters
-(For all empty parameters refer to [the common parameters](https://github.com/SMJSGaming/GDDocs/blob/master/endpoints/common_parameters.md))
+(For all empty parameters refer to [the common parameters](../../common_parameters.md))
 #### userName
 #### password
 #### email
