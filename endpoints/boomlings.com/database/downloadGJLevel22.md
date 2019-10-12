@@ -1,6 +1,7 @@
 ## downloadGJLevels22.php
 Download a level + other infos by its ID.
 ### Parameters
+(For all empty parameters refer to [the common parameters](https://github.com/SMJSGaming/GDDocs/blob/master/endpoints/common_parameters.md))
 #### gameVersion
 #### binaryVersion
 #### gdw
