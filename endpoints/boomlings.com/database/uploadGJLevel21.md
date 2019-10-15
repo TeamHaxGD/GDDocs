@@ -9,7 +9,7 @@ Uploads a level to the server.
 #### gjp
 #### userName
 #### levelID
-If the level already is uploaded and needs to be updated it will use put the level it should update here. Leave it at 0 to upload it as a new level.
+If the level already is uploaded and needs to be updated it will put the level it should update here. Leave it at 0 to upload it as a new level.
 #### levelName
 The name of the level in plain text.
 #### levelDesc
