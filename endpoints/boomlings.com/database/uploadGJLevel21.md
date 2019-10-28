@@ -25,7 +25,7 @@ The newGrounds song ID you want to use for your level. Unused is 0.
 #### auto, original, twoPlayer, unlisted, ldm
 A boolean which toggles if one of these elements is enabled (1) or disabled (0).
 #### password
-Your password sends as a plain text int. Set to 0 for no copy or 1 for free copy.
+The level's password as a 4-6 digit integer. Set to 0 for no copy or 1 for free copy.
 #### objects
 The amount of objects the level has.
 #### coins
