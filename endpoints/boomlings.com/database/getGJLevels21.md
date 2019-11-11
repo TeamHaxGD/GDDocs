@@ -6,7 +6,7 @@ Gets the pages containing multiple levels.
 #### binaryVersion
 #### gdw
 #### type
-Tells the server what the fetch priority should be. Type: 0 are the most liked levels, 1 are the most downloaded levels, 2 are the most liked levels (this is also the default for the search button), 3 are the trending levels, 5 are your own levels, 6 are the featured levels, 7 are the magic levels, 10 are the map packs, 11 are the recently awarded levels, 12 are levels from people you follow, 13 are levels from friends, 15 are the most liked levels in GD world and 16 are the hall of fame levels
+Tells the server what the fetch priority should be. Type: 0 are the most liked levels, 1 are the most downloaded levels, 2 are the most liked levels (this is also the default for the search button), 3 are the trending levels, 4 are recent levels, 5 are your own levels, 6 are the featured levels, 7 are the magic levels, 10 are the map packs, 11 are the recently awarded levels, 12 are levels from people you follow, 13 are levels from friends, 15 are the most liked levels in GD world and 16 are the hall of fame levels
 #### str
 The search string. This is empty if you didn't search any specific string.
 #### diff
