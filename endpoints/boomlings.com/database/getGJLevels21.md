@@ -6,7 +6,7 @@ Gets the pages containing multiple levels.
 #### binaryVersion
 #### gdw
 #### type
-Tells the server what the fetch priority should be. Type: 0 are the most liked levels, 1 are the most downloaded levels, 2 are the most liked levels (this is also the default for the search button), 3 are the trending levels, 4 are recent levels, 5 are your own levels, 6 are the featured levels, 7 are the magic levels, 8 are the sent levels (secured for mods), 10 are the levels of a map pack (or just put some random IDs in your str seperated by a `,` to get those levels specific), 11 are the recently awarded levels, 12 are levels from people you follow, 13 are levels from friends, 15 are the most liked levels in GD world and 16 are the hall of fame levels
+Tells the server what the fetch priority should be. Type: 0 are the most liked levels, 1 are the most downloaded levels, 2 are the most liked levels (this is also the default for the search button), 3 are the trending levels, 4 are recent levels, 5 are your own levels, 6 are the featured levels, 7 are the magic levels, 8 are the sent levels (secured for mods), 10 are the levels of a map pack (or just put some random IDs in your str seperated by a `,` to get those levels specific), 11 are the recently awarded levels, 12 are levels from people you follow, 13 are levels from friends, 15 are the most liked levels in GD world, 16 are the hall of fame levels, 17 are the featured levels, 18 is unknown since it gives an empty page with the default params (might be for mods or robtop only) and the default is the most liked levels.
 #### str
 The search string. This is empty if you didn't search any specific string.
 #### diff
