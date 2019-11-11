@@ -29,5 +29,7 @@ A boolean which filters on two player levels if true. The values are 1 (true) an
 A boolean which filters on levels with coins if true. The values are 1 (true) and 0 (false).
 #### epic
 A boolean which filters on epic levels if true. The values are 1 (true) and 0 (false).
+#### demonFilter
+A int telling the server on what demon it should filter if the diff is 10. It will always send if you changed the demon filter to non default.
 #### secret
 Wmfd2893gb7
