@@ -12,6 +12,8 @@ Uploads your comment to a level.
 Your comment in Base64
 #### levelID
 Target level ID.
+#### percent
+A linked highscore as a number
 #### secret
 Wmfd2893gb7
 #### chk

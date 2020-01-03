@@ -1,4 +1,4 @@
 ## Level passwords
 The password being put on levels to copy it.
 ### Decryption
-`Raw -> base64 decode -> xor (key: 26364)`
+`Raw -> Base64 decode -> XOR (key: 26364)`
