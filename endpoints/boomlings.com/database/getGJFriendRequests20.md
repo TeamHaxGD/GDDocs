@@ -6,6 +6,7 @@ Gets all friend requests from an account going in and out.
 #### binaryVersion
 #### gdw
 #### accountID
+#### gjp
 #### page
 The page offset you want to see. The offset is 10 per page.
 #### total
