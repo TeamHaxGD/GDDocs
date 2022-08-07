@@ -52,12 +52,17 @@ from its name:
 ```python
 from urllib.request import urlopen,Request
 
-playername = "robtop"
+playername = "RobTop"
 
 url = "http://www.boomlings.com/database/getGJUsers20.php" #page where to send the packet
 p = "gameVersion=21&binaryVersion=35&gdw=0&str="+playername+"&total=0&page=0&secret=Wmfd2893gb7" #our body
 p = p.encode() #prepare our packet for the request
-data = urlopen(url,p).read().decode()# send the request and save the response
+headers = {
+    "User-Agent": ""
+}
+
+req = Request(url, headers=headers)
+data = urlopen(req,p).read().decode()# send the request and save the response
 if data == "-1": #check if the request got accepted
     print("Request failed.") #player doesnt exist, some required variables may be missing from the body,
     #wrong url, invalid body format, invalid values, etc.
